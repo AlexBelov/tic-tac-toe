@@ -56,6 +56,7 @@ class Game
 				@field.show
 				over?
 				break if @over == true 
+				sleep(1.0/2.0)
 			end
 		end
 
